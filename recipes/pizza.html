@@ -1,59 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza Recipe</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 </head>
-
 <body>
-    <h1>Pizza</h1>
-    <img class= "preview" src="../images/margherita.jpg" alt="Pizza Margherita">
+    <header>
+        <a class="logo" href="../index.html">ODIN RECIPES</a>
+        <ul class="social-links">
+            <li onclick="window.print()"><i class="fas fa-print"></i></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+    </header>
+    <main>
+        <article>
+            <h1>Pizza Margherita</h1>
+            <img class= "preview" src="../images/margherita.avif" alt="Pizza Margherita">
+            
+            <div class="prep-info">
+                <span><strong>Prep:</strong> 10 mins</span>
+                <span><strong>Cook:</strong> 25 mins</span>
+                <span><strong>Total:</strong> 35 mins</span>
+                <span><strong>Rating:</strong> 5 stars</span>
+            </div>
 
-    <div class="description">
-        <p>
-            Pizza Margherita is a classic Italian dish that epitomizes simplicity and elegance in its flavors.
-            It features a thin, crisp crust that serves as the perfect base for its limited yet flavorful toppings.
-            The sauce is made from ripe, juicy tomatoes, often San Marzano, which are crushed and seasoned with a hint of
-            salt and olive oil.
-            This vibrant tomato sauce provides a fresh and slightly tangy contrast to the rich and creamy mozzarella cheese
-            that is generously scattered across the pizza.
-            Fresh basil leaves, added either before or after baking, lend a fragrant, herbaceous note that complements the
-            other ingredients beautifully.
-            A drizzle of high-quality extra virgin olive oil often completes the Margherita, adding a touch of richness and
-            enhancing the flavors.
-        </p>
+            <p class="description">
+                Pizza Margherita is a classic Neapolitan-style pizza named after Queen Margherita of Savoy, who visited Naples in 1889.
+                The story goes that a local baker created a dish resembling the Italian flag, with tomato sauce (red), mozzarella (white),
+                and fresh basil leaves (green). The flavors of this simple yet elegant pizza are perfectly balanced and have become a
+                staple of Italian cuisine.
+            </p>
 
-        <p>
-            The origins of Pizza Margherita are steeped in Italian history, with the most popular story tracing its creation back to
-            1889 in Naples. It is said that the pizza was crafted in honor of Queen Margherita of Savoy, with the ingredients chosen
-            to represent the colors of the Italian flag: red tomatoes, white mozzarella, and green basil. Today, Pizza Margherita
-            remains one of the most beloved and iconic pizzas worldwide, celebrated for its simplicity, balance, and the way it
-            allows the quality of its few ingredients to truly shine. Whether enjoyed in a rustic pizzeria in Naples or a modern
-            eatery anywhere in the world, a well-made Margherita is a timeless culinary experience.
-        </p>
-    </div>
-    
-    <h2>Ingredients</h2>
-    <ul>
-        <li><strong>Pizza dough</strong> (usually made from flour, water, yeast, salt, and a bit of olive oil)</li>
-        <li><strong>Tomatoes</strong> (preferably San Marzano or another variety of ripe, juicy tomatoes)</li>
-        <li><strong>Mozzarella cheese</strong> (fresh mozzarella, preferably made from buffalo milk or cow's milk)</li>
-        <li><strong>Fresh basil leaves</strong></li>
-        <li><strong>Extra virgin olive oil</strong></li>
-        <li><strong>Salt</strong></li>
-    </ul>
-
-    <h2>Steps</h2>
-    <ol>
-        <li><strong>Preheat Oven</strong>: Heat oven to its highest temperature (typically 475-500°F or 250°C).</li>
-        <li><strong>Shape Dough</strong>: Stretch or roll the dough into a thin circle.</li>
-        <li><strong>Assemble Pizza</strong>: Spread tomato sauce on dough. Add sliced fresh mozzarella and fresh basil leave</li>
-        <li><strong>Bake</strong>: Place pizza in the oven on a hot pizza stone or baking sheet. Bake for 7-10 minutes until crust is golden and cheese is bubbly.</li>
-        <li><strong>Finish</strong>: Drizzle with extra virgin olive oil and serve immediately.</li>
-    </ol>
+            <p class="description">
+                Pizza Margherita is a must-have dish when visiting Naples, but it can also be easily prepared at home. The key is to use
+                fresh ingredients, such as San Marzano tomatoes, high-quality mozzarella, and fragrant basil leaves. The crust should be
+                crispy and slightly charred, with a delicate crunch that pairs perfectly with the flavorful toppings. Whether you're in
+                Naples or not, a well-made Pizza Margherita is a culinary experience that will leave you wanting more.
+            </p>
+            
+            <div class="ingredients">    
+                <h2>Ingredients</h2>
+                <ul>
+                    <li><strong>Pizza dough</strong></li>
+                    <li><strong>Tomato sauce</strong></li>
+                    <li><strong>Mozzarella cheese</strong> (sliced)</li>
+                    <li><strong>San Marzano tomatoes</strong> (sliced)</li>
+                    <li><strong>Fresh basil leaves</strong></li>
+                    <li><strong>Extra virgin olive oil</strong></li>
+                </ul>
+            </div>
+            
+            <div class="steps">
+                <h2>Steps</h2>
+                <ol>
+                    <li><strong>Preheat Oven</strong>: Preheat oven to 550  F (290  C) with a pizza stone inside, if you have one.</li>
+                    <li><strong>Shape Pizza Dough</strong>: Punch down pizza dough and shape into a ball. Then flatten it into a disk using a rolling pin or your hands.</li>
+                    <li><strong>Top Pizza</strong>: Place the pizza dough on a piece of parchment paper or a lightly floured pizza peel. Spread tomato sauce over the dough, leaving a 1/2 inch border around the edges. Top with mozzarella slices and fresh basil leaves.</li>
+                    <li><strong>Bake Pizza</strong>: Slide the parchment paper or pizza peel onto the preheated stone and bake for 10-12 minutes, or until crust is golden and cheese is melted and bubbly.</li>
+                    <li><strong>Serve</strong>: Remove the pizza from the oven and let it cool for 2-3 minutes. Slice and serve immediately, garnished with extra basil leaves and mozzarella if desired.</li>
+                </ol>
+            </div>
+        </article>
+        <footer>
+            <p>&copy; 2023 Odin Recipes. All rights reserved.</p>
+        </footer>
+    </main>
 </body>
-
 </html>
