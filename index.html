@@ -5,14 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 </head>
 <body>
-    <h1 id="title">Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/pizza.html">Pizza</a></li>
-        <li><a href="recipes/carbonara.html">Carbonara</a></li>
-        <li><a href="recipes/gin-fizz.html">Gin Fizz</a></li>
-    </ul>
+    <header>
+        <a class="logo" href="../index.html">ODIN RECIPES</a>
+        <ul class="social-links">
+            <li onclick="window.print()"><i class="fas fa-print"></i></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+    </header>
+
+    <div class="container">
+      <div class="box">
+        <img src="../images/margherita.avif" alt="Pizza Margherita">
+        <a href="recipes/pizza.html">Pizza</a>
+      </div>
+      <div class="box">
+        <img src="../images/carbonara.jpg" alt="Carbonara">
+        <a href="recipes/carbonara.html">Carbonara</a>
+      </div>
+      <div class="box">
+        <img src="../images/gin-fizz.avif" alt="Gin Fizz">
+        <a href="recipes/gin-fizz.html">Gin Fizz</a>
+      </div>
+    </div>
     
 </body>
 </html>
